@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind exercice</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="flex justify-between item-center px-32 py-8 bg-white text-white">
+        <h1 class="text-[gray] text-3xl">logos</h1>
+       <a href="home.html" class="text-3xl"><i class="fa-solid fa-bars text-black"></i></a>
+    </nav>
+    <section class="bg-[url('/src/image/bac.png')] bg-cover w-full h-screen  bg-center relative ">
+      
+          <div class="bg-yellow-500 h-80 w-80 absolute right-32 top-36 rounded-2xl ">
+ 
+        </div>
+     <div class="bg-[white] h-80 w-80 absolute right-48 top-48 rounded-2xl text-center content-center">
+        <h1 class="mt-14 mb-10 capitalize text-4xl bold ">contact us</h1>
+        <p class="mb-8">image from <span class="underline  underline-offset-5 cursor-pointer ">freepik </span></p>
+        <button class="bg-[#242038] px-10 py-2.5 rounded-3xl uppercase hover:bg-yellow-400 text-white" >learn more</button>
+        
+     </div>
+   
+    </section>
+
+    <section class="bg-[#242038] flex flex-col justify-center ">
+        <div class="w-1/2 mx-auto mt-16  ">
+            <h1 class="text-white flex justify-center text-5xl mb-10 ">Office locations</h1>
+            <p class="text-white text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden</p>
+        </div>
+        <div class="w-full  flex justify-center  gap-5">
+            <div class="w-80 h-90   mt-8 bg-white p-4 rounded-2xl">
+                <img src="/src/image/im-1.png" alt="" class="rounded-2xl">
+                <h1 class="py-6">Galway Office (Head Office)</h1>
+                <p>Wolfe Tone House </p>
+                <p>Fr Griffin Road </p>
+                <p class="pb-6">Galway, A51 PW72 </p>
+                <p class="pb-2"> <i class="fa-solid fa-phone" ></i> +1(234) 567-8910</p>
+                <p class="hover:underline underline-offset-8 hover:cursor-pointer">buildin@companie.com</p>
+            </div>
+            <div class="w-80  mt-8 bg-white p-4 rounded-2xl ">
+               
+                <img src="/src/image/im-2.png" alt="" class="rounded-2xl">
+                <h1 class="py-6">Cork Office</h1>
+                <p>36 Kiehn Route </p>
+                <p>West Ned Tennessee</p>
+                <p class="pb-6">Cork, L63 H6NP</p>
+                <p class="pb-2"> <i class="fa-solid fa-phone"></i>+1(234) 567-8910</p>
+                <p class="hover:underline underline-offset-8 hover:cursor-pointer ">buildin@companie.com</p>
+            </div>
+            <div class="w-80  mt-8 bg-white p-4 rounded-2xl">
+    
+                <img src="/src/image/im-3.png" alt="" class="rounded-2xl" >
+                <h1 class="py-6">Dublin Office </h1>
+                <p>Thomas Burgh House </p>
+                <p>Newmarket Square  </p>
+                <p class="pb-6">Dublin 56, J08 A08</p>
+                <p class="pb-2"><i class="fa-solid fa-phone"></i> +1(234) 567-8910</p>
+                <p class="hover:underline underline-offset-8 hover:cursor-pointer">buildin@companie.com</p>
+            </div>
+        </div>
+        <p class="flex justify-center mt-5 mb-14 text-white ">image from <span class="capitalize underline pl-1 pb-1 hover:text-[gray] hover:cursor-pointer">freepik</span></p>
+    </section>
+    <section class="bg-[url('/src/image/building.png')] w-full h-full ">
+     <div class="w-full h-full  flex justify-center gap-28 p-20 bg-[#242038]/80 ">
+        <div>
+            <h1 class="text-white  text-5xl pb-10 ">contact us</h1>
+            <p class="text-white pb-10">image from <span class="underline hover:text-yellow-600">freepik</span></p>
+            <h1 class="text-white pb-6 text-3xl"><i class="fa-solid fa-phone text-yellow-600 m-0.5"></i > Call Us </h1>
+            <p class="text-white pb-10">1 (234) 567-891, 1 (234) 987-654</p>
+            <h1 class="text-white pb-6 text-3xl"> <i class="fa-solid fa-location-dot text-yellow-600 m-1"></i>Location </h1>
+            <p class="text-white pb-10">121 Rock Sreet, 21 Avenue, New York, NY <br>92103-9000</p>
+            <h1 class="text-white pb-6 text-3xl"> <i class="fa-regular fa-clock text-yellow-600 m-0.5"></i> Business Hours </h1>
+            <p class="text-white pb-10">Mon – Fri …… 10 am – 8 pm, Sat, Sun ....… Closed</p>
+        </div>
+        <div>
+            <form class="pt-14 capitalize">
+                <div class="flex gap-10 mb-8">
+                <div>
+                    <h1 class="text-white">Email</h1>
+                <input type="text" placeholder="Enter a valide email adress" class="h-10 pl-4 border-hidden focus:outline-none">
+            </div>
+              <div>
+            <h1  class="text-white">name</h1>
+                <input type="text" placeholder="Enter your name" class="h-10 pl-4 focus:outline-none">
+            </div>
+            </div>
+           <label  class="text-white"> adress</label><br>
+            <input type="text" placeholder="Enter your adress" class="w-full h-10 pl-4 mb-8  focus:outline-none"><br>
+            <label class="text-white">message</label><br>
+            <textarea class="h-28 w-full pl-4 mb-6 focus:outline-none " placeholder="Enter your message"></textarea><br>
+            <button class="bg-yellow-400 w-full h-14 rounded-3xl text-black uppercase hover:bg-white cursor-pointer">submit</button>
+            </form>
+        </div>
+     </div>
+    </section>
+
+    <section class="bg-[#242038] px-32">
+        <div class="flex flex-col text-center pt-10 gap-4 border-b-2">
+            <h1 class="text-white text-3xl font-bold">logo</h1>
+            <div class="flex justify-center item-center  pb-4 pt-1">
+                <div class="w-6 h-6"><img src="/src/image/facebook-removebg-preview.png" alt=""></div>
+                <div class="w-8 h-8"><img src="/src/image/twitter-removebg-preview.png" alt=""></div>
+                <div class="w-8 h-8 "><img src="/src/image/Pasted_image-removebg-preview(1).png" alt=""></div>
+                <div class="w-8 h-8"><img src="/src/image/linkedin-1-svgrepo-com (1).svg" alt=""></div>
+            </div>
+        </div>
+       <p class="text-center text-white pt-8 pb-6">Sample text. Click to select the text box. Click again or double click to <br>start editing the text.</p>
+    </section>
+    <div class="text-white bg-gray-700 flex justify-center p-10">
+        <p> <span class="underline m-1 hover:underline-none cursor-pointer hover:text-gray-400 "> Website Templates </span> created with <span class="underline m-1 hover:text-gray-400 cursor-pointer">Website Builder Software </span>. </p>
+    </div>
+</body>
+</html>
